@@ -1,0 +1,101 @@
+/* Navbar */
+.navbar {
+    background-color: #7fe091; /* Hijau Elegan */
+    text-align: center;
+    padding: 0.3rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Tombol Add Task dan About Me */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.btn-add {
+    background-color: #4acfe3; 
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-about {
+    background-color: #6cbc4c; 
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-add:hover, .btn-about:hover {
+    opacity: 0.9;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    border: 1px solid #a8b49f;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+td {
+    vertical-align: middle;
+}
+
+/* Tombol Update dan Delete */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-update {
+    background-color: #FFC107; 
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-delete {
+    background-color: #f51000; 
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn-update:hover, .btn-delete:hover {
+    opacity: 0.9;
+}
+
+/* Status */
+.status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+.status.pending {
+    background-color: #f44336; 
+}
+.status.completed {
+    background-color: #6cbc4c; 
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    background-color: #f0f8ff; 
+    color: #333;
+}
